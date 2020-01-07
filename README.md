@@ -44,6 +44,9 @@ Example:
 ```
 glob glob Silver is 34 Credits
 glob prok Gold is 57800 Credits
+
+how many Credits is glob prok Silver ?
+how many Credits is glob prok Gold ?
 ```
 it will return:
 

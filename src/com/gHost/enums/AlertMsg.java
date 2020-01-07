@@ -1,6 +1,6 @@
 package com.gHost.enums;
 
-public enum Alert {
+public enum AlertMsg {
     SUCCESS,
     INVALID,
     INVALID_ROMAN_CHARS,

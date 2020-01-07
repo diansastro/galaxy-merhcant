@@ -1,6 +1,6 @@
 package com.gHost;
 
-import com.gHost.enums.Alert;
+import com.gHost.enums.AlertMsg;
 
 public class ErrorMessage {
 
@@ -8,16 +8,16 @@ public class ErrorMessage {
 
     }
 
-    private String getMessage(Alert alert) {
+    public String getMessage(AlertMsg alertMsg) {
 
         String messages = null;
 
-        switch (alert) {
+        switch (alertMsg) {
             case INVALID: messages = "Wrong input format"; break;
             case NO_INPUT: messages = "No input specified"; break;
             case INCORRECT_TYPE: messages = "Incorrect line type supplied"; break;
             case INVALID_ROMAN_CHARS: messages = "Illegal character specified in roman number"; break;
-            case INVALID_ROMAN_STRING: messages = "wrong RomanNumbers number"; break;
+            case INVALID_ROMAN_STRING: messages = "wrong format number"; break;
             case NO_IDEA: messages = "I have no idea what you are talking about"; break;
             default: break;
         }
@@ -28,8 +28,8 @@ public class ErrorMessage {
     /**
      * Display error message while input type requirement didn't match
      */
-    void printMessage(Alert alert) {
-        String message = getMessage(alert);
+    void printMessage(AlertMsg alertMsg) {
+        String message = getMessage(alertMsg);
 
         if (message != null) {
             System.out.println(message);
