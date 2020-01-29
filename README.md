@@ -54,3 +54,7 @@ it will return:
 glob prok Silver is 68 Credits
 glob prok Gold is 57800 Credits
 ``` 
+
+here i attach for the input example
+
+![alt text](https://i.ibb.co/KFCp9fP/Screen-Shot-2020-01-29-at-11-31-22.png)
