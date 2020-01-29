@@ -40,15 +40,13 @@ it will return
 You can give another command to to count the credit in different place, but at first you need to
 insert roman numeral. 
 
-Example input (*followed by **bold** text):
+Example input (*need to type cannot use copy paste):
 
 ```
 glob is I
 prok is V 
-
 glob glob Silver is 34 Credits
 glob prok Gold is 57800 Credits
-
 how many Credits is glob prok Silver ?
 how many Credits is glob prok Gold ?
 ```
