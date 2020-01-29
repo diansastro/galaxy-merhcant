@@ -61,4 +61,4 @@ glob prok Gold is 57800 Credits
 
 here i attach for the input example
 
-![alt text](https://i.ibb.co/KFCp9fP/Screen-Shot-2020-01-29-at-11-31-22.png)
+![alt text](https://i.ibb.co/b65ZfMK/Screen-Shot-2020-01-29-at-20-00-18.png)
