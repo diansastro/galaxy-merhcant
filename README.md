@@ -37,16 +37,20 @@ it will return
 
 `pish tegj glob glob is 42`
 
-You can give another command to to count the credit in different place
+You can give another command to to count the credit in different place, but at first you need to
+insert roman numeral. 
 
-Example:
+Example input (*followed by **bold** text):
 
 ```
-glob glob Silver is 34 Credits
-glob prok Gold is 57800 Credits
+**glob** is I
+**prok** is V 
 
-how many Credits is glob prok Silver ?
-how many Credits is glob prok Gold ?
+**glob glob** **Silver** is 34 Credits
+**glob prok** **Gold** is 57800 Credits
+
+how many Credits is **glob prok Silver** ?
+how many Credits is **glob prok Gold** ?
 ```
 it will return:
 
