@@ -43,14 +43,14 @@ insert roman numeral.
 Example input (*followed by **bold** text):
 
 ```
-**glob** is I
-**prok** is V 
+glob is I
+prok is V 
 
-**glob glob** **Silver** is 34 Credits
-**glob prok** **Gold** is 57800 Credits
+glob glob Silver is 34 Credits
+glob prok Gold is 57800 Credits
 
-how many Credits is **glob prok Silver** ?
-how many Credits is **glob prok Gold** ?
+how many Credits is glob prok Silver ?
+how many Credits is glob prok Gold ?
 ```
 it will return:
 
